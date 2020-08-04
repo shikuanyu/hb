@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../heatbeat">
+      <excludeFolder url="file://$MODULE_DIR$/../heatbeat/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../heatbeat/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../heatbeat/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/../heatbeat/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
