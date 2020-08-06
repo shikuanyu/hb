@@ -45,24 +45,24 @@ const hugRotate = (d) => keyframes`
 const beatAnimation = (a) => keyframes`
    0%
   {
-    margin-left: 0%;
+    margin-left: 0px;
   }
   30%
   {
-    margin-left: ${a}%;
+    margin-left: ${a}px;
   }
   
   50%
   {
-    margin-left: 0%;
+    margin-left: 0px;
   }
   70%
   {
-    margin-left: -${a}%;
+    margin-left: -${a}px;
   }
   100%
   {
-    margin-left: 0%;
+    margin-left: 0px;
   }
 `;
 
