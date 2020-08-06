@@ -45,41 +45,27 @@ const hugRotate = (d) => keyframes`
 const beatAnimation = (a) => keyframes`
    0%
   {
-    transform: scale( ${a} );
+    margin-left: 0%;
   }
-  10%
+  30%
   {
-    transform: scale( ${a} + (1 - x)/4);
+    margin-left: ${a}%;
   }
-  20%
-  {
-    transform: scale( ${a} + (2 * (1 - x))/4 );
-  }
-  40%
-  {
-    transform: scale( ${a} + (3 * (1 - x))/4 );
-  }
+  
   50%
   {
-    transform: scale( 1 );
+    margin-left: 0%;
   }
-  60%
+  70%
   {
-    transform: scale( ${a} + (3 * (1 - x))/4 );
-  }
-  80%
-  {
-    transform: scale( ${a} + (2 * (1 - x))/4 );
-  }
-  90%
-  {
-    transform: scale( ${a} + (1 - x)/4);
+    margin-left: -${a}%;
   }
   100%
   {
-    transform: scale( ${a} );
+    margin-left: 0%;
   }
 `;
+
 
 const StyleLogo = styled(ReactHeart)`
   height: ${props => props.height};

@@ -5,4 +5,17 @@
     </defs>
     <path d="M511.9 981.9c-5.7 0-11-1.2-15.5-3.8-68.1-33.8-191.5-126.1-301.8-249-57.9-64.4-103.9-128.2-136.8-189.4C19.4 468.3 0 401.7 0 341.8c0-123.3 57.5-194.5 105.8-232.4C159.4 67.2 232.8 42 302 42c43 0 87.4 13.2 132.1 39.2 32.8 19.1 59.6 41.6 77.9 59 18.3-17.4 45-39.8 77.9-59C634.6 55.2 679 42 722 42c69.2 0 142.5 25.2 196.2 67.4 48.3 38 105.8 109.1 105.8 232.4 0 59.9-19.4 126.4-57.8 197.9-32.8 61.2-78.9 124.9-136.7 189.4C719.1 852 595.7 944.4 527.7 978.3c-5 2.4-10.3 3.6-15.8 3.6z"
           fill="current"/>
+    <circle cx="100" cy="200" r="40" stroke="black" stroke-width="3" fill="#001466" />
+    <circle cx="300" cy="250" r="40" stroke="black" stroke-width="3" fill="#002366" />
+    <circle cx="600" cy="450" r="40" stroke="black" stroke-width="3" fill="#6D4F56" />
+    <circle cx="900" cy="250" r="40" stroke="black" stroke-width="3" fill="#A3801B" />
+    <circle cx="250" cy="550" r="40" stroke="black" stroke-width="3" fill="#1DC293" />
+    <circle cx="250" cy="650" r="40" stroke="black" stroke-width="3" fill="#660002" />
+    <circle cx="700" cy="550" r="40" stroke="black" stroke-width="3" fill="yellow" />
+    <circle cx="800" cy="250" r="40" stroke="black" stroke-width="3" fill="black" />
+    <circle cx="300" cy="750" r="40" stroke="black" stroke-width="3" fill="orange" />
+    <circle cx="900" cy="450" r="40" stroke="black" stroke-width="3" fill="#63DF63" />
+    <circle cx="500" cy="250" r="40" stroke="black" stroke-width="3" fill="orange" />
+    <circle cx="500" cy="500" r="40" stroke="black" stroke-width="3" fill="brown" />
+    <circle cx="500" cy="800" r="40" stroke="black" stroke-width="3" fill="#660000" />
 </svg>

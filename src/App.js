@@ -5,7 +5,7 @@ import {ChromePicker} from 'react-color'
 
 
 function App() {
-  const [amplitude, setAmplitude] = useState(25);
+  const [amplitude, setAmplitude] = useState(1);
   const [degree, setDegree] = useState(90);
   const [hexColor, setHexColor] = useState('#006600');
   const [hues, setHues] = useState(0);
@@ -13,14 +13,13 @@ function App() {
 
   const beatsPerMinute = beats <= 0 ? 0 : 60 / beats;
   const huesPerMinute = hues <= 0 ? 0 : 60 / hues;
-  const amplitudePercentage = 1 - (amplitude / 100);
 
   return (
     <div className="App">
       <header className="App-header">
         <div>
           <HeartIcon beatRate={beatsPerMinute} hueRate={huesPerMinute} height={"90vh"} width={"80vw"}
-                     fillColor={hexColor} amplitude={amplitudePercentage} degree={degree}/>
+                     fillColor={hexColor} amplitude={amplitude} degree={degree}/>
         </div>
         <div>
           <input type="number" placeholder="次/分钟" value={beats}
